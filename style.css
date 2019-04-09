@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(18, 28, 44);
+    font-family: 'Roboto', sans-serif;
+}
+
+.gamebox {
+    margin: 100px auto 100px auto;
+    padding: 50px;
+    width: 60%;
+    height: 500px;
+    border-radius: 50px;
+    background-color: rgb(218, 218, 218);
+}
+
+.names{
+    margin: 30px auto 0 auto;
+    width: 300px;
+}
+
+.names h1 {
+    display: inline;
+    text-decoration: underline;
+}
+
+.names .player {
+    float: left;
+}
+.names .computer {
+    float: right;
+}
+
+
+.choices {
+    width: 578px;
+    margin: 270px auto 0 auto;
+}
+
+.button {
+    display: inline;
+    margin: 0 20px 0 20px;
+    width:150px;
+    height:150px;
+}
+
+.button:hover {
+    opacity: 0.75;
+}
