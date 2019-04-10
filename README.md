@@ -1,4 +1,4 @@
-# Rock Paper Scissors
+# Rock Paper Scissors with GUI
 
 ## What is it
 ---
