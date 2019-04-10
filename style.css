@@ -14,32 +14,35 @@ body {
 
 .names{
     margin: 30px auto 0 auto;
-    width: 350px;
+    width: 320px;
 }
 
 .names h1 {
+    margin-left: 20px;
     display: inline;
     text-decoration: underline;
 }
 
 .playerName {
     float: left;
-    margin-left: 35px;
+    margin-left: 0;
 }
 .computerName {
     float: right;
-    margin-right: 10px;
+    margin-right: 0;
 }
 
 .scores {
+    display:block;
     text-align: center;
-    margin: 115px auto 0 auto;
-    width: 40%;
+    margin: 120px auto 0 auto;
+    width: 220px;
 }
 
 .scores h1{
+    text-align: center;
     display: inline;
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .playerScore {
@@ -52,10 +55,14 @@ body {
     margin-top: 20px;
 }
 
-.outcome {
-    margin: 0;
+.outcome1 {
+    margin: 20px 0 0 25px;
     padding: 0;   
-    color: red; 
+}
+
+.outcome2 {
+    margin: 20px 0 0 10px;
+    padding: 0;   
 }
 
 .choices {

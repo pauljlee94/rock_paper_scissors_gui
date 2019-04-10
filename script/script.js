@@ -59,10 +59,12 @@ function game () {
     }else if (playerScore == 5 || computerScore ==5) {
         if (playerScore > computerScore) {
             computerScoreBoard.textContent = '';
-            playerScoreBoard.textContent = " You Win"
+            playerScoreBoard.textContent = "You Win"
+            playerScoreBoard.classList.add('outcome1')
         }else {
             computerScoreBoard.textContent = '';
             playerScoreBoard.textContent = "You Lose"
+            playerScoreBoard.classList.add('outcome2')
         }
         gameOver = true;
     }
@@ -75,6 +77,8 @@ function reset () {
     gameOver = false;
     playerScoreBoard.textContent = 0;
     computerScoreBoard.textContent = "0";
+    playerScoreBoard.classList.remove('outcome1');
+    playerScoreBoard.classList.remove('outcome2');
 }
 
 // Choice Buttons----------------------------------------------------
