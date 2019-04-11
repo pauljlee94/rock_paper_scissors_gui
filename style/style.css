@@ -3,8 +3,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.title {
+    margin:30px auto 0 auto;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    width:130px;
+    height: 115px;
+    color: white;
+    border: white 5px solid;
+    box-shadow: 5px 5px rgb(255, 255, 255);
+}
+
 .gamebox {
-    margin: 100px auto 0px auto;
+    margin: 60px auto 0px auto;
     padding: 50px;
     width: 60%;
     height: 500px;
