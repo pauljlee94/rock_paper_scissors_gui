@@ -18,7 +18,7 @@ body {
 .gamebox {
     margin: 60px auto 0px auto;
     padding: 50px;
-    width: 60%;
+    width: 600px;
     height: 500px;
     border-radius: 50px;
     background-color: rgb(224, 224, 224);
